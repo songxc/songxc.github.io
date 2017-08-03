@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://songxc.github.io/2016/05/09/chrome-devtools-appearance/</loc>
+    <lastmod>2016-05-09T08:57:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Chrome DevTools 新增黑色主题</title>
+        <pubTime>2016-05-08T16:00:00.000Z</pubTime>
+        
+        <tag>Chrome DevTools</tag>
+         
+         
+           
+             
+              <breadCrumb title="Chrome" url="http://songxc.github.io/categories/chrome/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://songxc.github.io/2016/02/28/better-life/</loc>
+    <lastmod>2016-05-09T08:52:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>笔记 - 奇特的一生</title>
+        <pubTime>2016-02-27T16:00:00.000Z</pubTime>
+        
+        <tag>奇特的一生</tag>
+         
+        <tag>时间统计</tag>
+         
+        <tag>柳比歇夫</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="http://songxc.github.io/categories/notebook/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://songxc.github.io/2015/12/23/image-placeholder-generator-cairo/</loc>
+    <lastmod>2016-05-09T08:21:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>笔记 - 基于 Node Canvas 的占位图生成器</title>
+        <pubTime>2015-12-22T16:00:00.000Z</pubTime>
+        
+        <tag>图像处理</tag>
+         
+        <tag>Express</tag>
+         
+         
+           
+             
+              <breadCrumb title="Node" url="http://songxc.github.io/categories/node/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://songxc.github.io/2014/02/19/hairline-in-retina/</loc>
+    <lastmod>2016-05-09T08:21:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Retina屏幕中0.5px边框效果的CSS实现</title>
+        <pubTime>2014-02-18T16:00:00.000Z</pubTime>
+        
+        <tag>hairline</tag>
+         
+        <tag>Retina</tag>
+         
+        <tag>0.5px border</tag>
+         
+        <tag>CSS</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://songxc.github.io/categories/front-end/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://songxc.github.io/2015/12/24/ECMAScript6-promise/</loc>
+    <lastmod>2016-05-09T08:20:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>笔记 - ES6中的Promise特性</title>
+        <pubTime>2015-12-23T16:00:00.000Z</pubTime>
+        
+        <tag>Promise</tag>
+         
+        <tag>ECMAScript 6</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="http://songxc.github.io/categories/notebook/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://songxc.github.io/2014/02/01/hello-world/</loc>
+    <lastmod>2016-05-09T03:42:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2014-01-31T16:00:00.000Z</pubTime>
+        
+        <tag>Gitbook Pages</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>Hello World</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</urlset>

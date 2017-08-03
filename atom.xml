@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Season&#39;s Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://songxc.github.io/"/>
+  <updated>2016-05-09T08:57:59.000Z</updated>
+  <id>http://songxc.github.io/</id>
+  
+  <author>
+    <name>Season Song</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Chrome DevTools 新增黑色主题</title>
+    <link href="http://songxc.github.io/2016/05/09/chrome-devtools-appearance/"/>
+    <id>http://songxc.github.io/2016/05/09/chrome-devtools-appearance/</id>
+    <published>2016-05-08T16:00:00.000Z</published>
+    <updated>2016-05-09T08:57:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-6-1.png" style="width:320px;"><br></div>
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;div style=&quot;display:none;&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://o6w45ga5i.bkt.clouddn.com/thumbnail-6-1.png&quot; style=&quot;width:320px;&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+
+    
+    </summary>
+    
+      <category term="Chrome" scheme="http://songxc.github.io/categories/chrome/"/>
+    
+    
+      <category term="Chrome DevTools" scheme="http://songxc.github.io/tags/Chrome-DevTools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记 - 奇特的一生</title>
+    <link href="http://songxc.github.io/2016/02/28/better-life/"/>
+    <id>http://songxc.github.io/2016/02/28/better-life/</id>
+    <published>2016-02-27T16:00:00.000Z</published>
+    <updated>2016-05-09T08:52:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-5-1.png" style="width:320px;"><br></div>
+
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>人最宝贵的是生命。但是仔细分析一下这个生命，可以说，最宝贵的是时间。因为生命是由时间构成的，是一小时一小时、一分钟一分钟累积起来的。没人能预计他在下一分钟里能发生什么，但至少我们可以记得前一分钟我们做过什么。<br>这里是要讲述一个将自己的一生用时间来计划的人——柳比歇夫。柳比歇夫通过他的时间统计法对自己进行了研究和试验：试验在写、读、听、工作、思索各方面，他到底能干多少？干多少？怎么干？他不让自己负担过重，力不胜任；他总是循着他能力的边缘前进，他对自己能力的掂量精确无疑。<br>如果每个人都能知道自己能干些什么，那生活会变得多么美好！因为每个人的能力都比他自己感觉到的大得多，也就不会有那么多的人感叹自己因能力有限而导致一事无成。（摘自<a href="http://book.douban.com/subject/1115353/" target="_blank" rel="external">豆瓣</a>）</p>
+<h2 id="时间守则"><a href="#时间守则" class="headerlink" title="时间守则"></a>时间守则</h2><ol>
+<li><p>我不承担必须完成的任务；</p>
+</li>
+<li><p>我不接受紧急的任务；</p>
+</li>
+<li><p>一累马上停止休息；</p>
+</li>
+<li><p>睡得很多，10小时左右；</p>
+</li>
+<li><p>把累人的工作同愉快的工作结合在一起；</p>
+</li>
+</ol>
+<h2 id="摘抄"><a href="#摘抄" class="headerlink" title="摘抄"></a>摘抄</h2><ol>
+<li><p>因为任何一个人的日记，即使是最秘不示人的，也总是下意识的，在心灵觉察不到的地方，隐隐约约地期待着它的读者。</p>
+</li>
+<li><p>大家知道，幸福的人是不看表的；反过来说也对，不看表的人是幸福的。</p>
+</li>
+<li><p>我们的记忆是靠什么？靠事件，我们的生活是拿事件来做标识的。他们仿佛是路标，路标之间却是一片空白。</p>
+</li>
+<li><p>眼泪无助于消弭痛苦，人要控制自己，越快约好；为死者哀恸 – 这是宗教感情的残余。死者不能复生，哀恸有什么意思？</p>
+</li>
+<li><p>追悼会上那些动感情的讲话只会让亲属伤心，不会有任何安慰。</p>
+</li>
+<li><p>现代的人应当是唯理主义者，而我们却对理智感到难为情，总想滥用感情，叫自己温情一点。</p>
+</li>
+<li><p>乐天基因。</p>
+</li>
+<li><p>对于一个纪念馆来说，死亡并不是终点，而是存在的开端。</p>
+</li>
+<li><p>在需要的情况下，人什么都学的会。</p>
+</li>
+<li><p>事务性的，甚至技术性的工作，通常被人们认为是毫不相干的古怪行径和毫无价值的浪费时间，实际上却有助于创造性的工作。</p>
+</li>
+<li><p>物件是有记忆的。至少那些不用机器制造，而由工匠用双手做出来的，历尽人间沧桑的古老家具是有记忆力的。（Phoebe 喜欢古老的独一无二的家具）</p>
+</li>
+<li><p>科学家的永恒性就在坚持不懈的寻求之中。科学就其容量而言，是永不枯竭的，就其目标而言，是永远不可企及的。</p>
+</li>
+<li><p>历来令人感到惊奇的是一个人忽然会感到有一种不受逻辑和理智支配的限度，感到有一种不可理解也不可解释的执着，出自良知或者什么别的东西。“我坚持这么做，而且非这么做不可”</p>
+</li>
+<li><p>他不善于回避不愉快的事件和危险的争执，也不善于躲开滑溜难行的地方。一旦摔跤，那就得头破血流。</p>
+</li>
+<li><p>一个医生，如果他仅仅是一个好医生，那他就不可能是一个好医生；一个科学家，如果他仅仅是一个科学家，那他也就不可能是一个大科学家。当想象力和灵感消失时，创造性的源泉也要求兼及旁骛，否则科学家就只剩下追求事实了。</p>
+</li>
+<li><p>明白和理解可不是一回事。</p>
+</li>
+<li><p>谁同现实妥协，谁就是对未来没有信心。</p>
+</li>
+<li><p>如果想要工作有一个令人欣慰的结局，那么就去干你心向往之的工作。</p>
+</li>
+<li><p>一种事业，总有许多先驱者为之献出智慧，最后才轮到一个人来完成它，这个人就是天才。</p>
+</li>
+<li><p>善于工作的人，时间总是够用的。</p>
+</li>
+<li><p>人们经常充满敌意地对待时间，空间、物质 – 这些东西都能以某种方式加以驯服。时间却始终那么放荡不羁。</p>
+</li>
+<li><p>人们需要有人去批评指责他们。</p>
+</li>
+<li><p>当人们马上同意我的意见时，我就觉得我的意见是不正确的。</p>
+</li>
+<li><p>科学是以怀疑始，以深信不疑终。</p>
+</li>
+<li><p>爱好虚荣 !== 功名心</p>
+</li>
+<li><p>不是根据自己的能力去衡量任务，而是根据任务去衡量能力。</p>
+</li>
+<li><p>拥有一种精神上的义务，要比保持心灵上的安全感好。</p>
+</li>
+<li><p>决定人的精神品质的，不是他的行为本身，而是他的意图。</p>
+</li>
+<li><p>每个人的能力都比他自己感觉到的大的多。</p>
+</li>
+<li><p>生活就是透辟的理解。</p>
+</li>
+<li><p>我们好像只能使用经过精选的时间；我们记得的只是一生中最精彩的时刻；半个小时对我们来说不算时间；我们只承认整段整段的时间，只承认不受客观环境和偶然事件干扰的大段时间。只有在这样的时间里，我们才打算大显身手。短一点的时间，我们马上会借口外界有干扰、客观条件不允许而难以用上。啊，不依我们意志为转移的客观条件，具有充分权力和理由的客观条件真是威力无比！把责任往他们身上一推，那是多么轻而易举啊…..</p>
+</li>
+<li><p>这失踪的时间肯定在什么地方存在着 – 作为对我们的谴责，作为我们的罪孽存在着。</p>
+</li>
+<li><p>时间的速度到底取决于什么，什么在催促它？什么在阻碍它？</p>
+</li>
+<li><p>可以说，一个人珍惜每一秒钟，并使每一秒钟都过的很有意义，同时又把这看成是一种自然而然的现象，那就是最为困难的一件事。</p>
+</li>
+<li><p>最普遍的是，大部分人认为首先应当是环境和社会作用于人，社会有责任培养人的个性，使个体的个性臻于完善，并对个人的个性提出要求等等，所以大部分人顺其自然，不对自己提要求。柳比歇夫却不然，他自己对自己提出要求，自己监督自己，自己监视自己，自己向自己汇报。</p>
+</li>
+<li><p>关键在于一个人希望从生活中得到什么？</p>
+</li>
+</ol>
+<p><br><br>2016.02.28 于杭州</p>
+]]></content>
+    
+    <summary type="html">
+    
+      笔记 - 奇特的一生
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://songxc.github.io/categories/notebook/"/>
+    
+    
+      <category term="奇特的一生" scheme="http://songxc.github.io/tags/%E5%A5%87%E7%89%B9%E7%9A%84%E4%B8%80%E7%94%9F/"/>
+    
+      <category term="时间统计" scheme="http://songxc.github.io/tags/%E6%97%B6%E9%97%B4%E7%BB%9F%E8%AE%A1/"/>
+    
+      <category term="柳比歇夫" scheme="http://songxc.github.io/tags/%E6%9F%B3%E6%AF%94%E6%AD%87%E5%A4%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记 - ES6中的Promise特性</title>
+    <link href="http://songxc.github.io/2015/12/24/ECMAScript6-promise/"/>
+    <id>http://songxc.github.io/2015/12/24/ECMAScript6-promise/</id>
+    <published>2015-12-23T16:00:00.000Z</published>
+    <updated>2016-05-09T08:20:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-4.png" style="width:320px;"><br></div>
+
+<h2 id="参考引用"><a href="#参考引用" class="headerlink" title="参考引用"></a>参考引用</h2><blockquote>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank">Promise - JavaScript | MDN</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      笔记 - ES6中的Promise特性
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://songxc.github.io/categories/notebook/"/>
+    
+    
+      <category term="Promise" scheme="http://songxc.github.io/tags/Promise/"/>
+    
+      <category term="ECMAScript 6" scheme="http://songxc.github.io/tags/ECMAScript-6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记 - 基于 Node Canvas 的占位图生成器</title>
+    <link href="http://songxc.github.io/2015/12/23/image-placeholder-generator-cairo/"/>
+    <id>http://songxc.github.io/2015/12/23/image-placeholder-generator-cairo/</id>
+    <published>2015-12-22T16:00:00.000Z</published>
+    <updated>2016-05-09T08:21:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-3.png" style="width:320px;"><br></div>
+
+<p><img src="http://o6w45ga5i.bkt.clouddn.com/image-placeholder-tool-cairo.jpg" alt="Image Placeholder Tool"></p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h4 id="Repository"><a href="#Repository" class="headerlink" title="Repository"></a>Repository</h4><p><a href="https://github.com/songxc/image-proc-cairo" target="_blank" rel="external">https://github.com/songxc/image-proc-cairo</a></p>
+<h4 id="Dependencies"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies</h4><ul>
+<li><a href="http://expressjs.com/" target="_blank" rel="external">Express</a></li>
+<li><a href="http://cairographics.org/" target="_blank" rel="external">Cairo</a></li>
+<li><a href="https://github.com/Automattic/node-canvas/" target="_blank" rel="external">Node Canvas</a></li>
+<li><a href="https://github.com/whackashoe/antimoderate" target="_blank" rel="external">AntiModerate - The progressive image loading library for great good!</a></li>
+</ul>
+<h4 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h4><p>Visit after start service.</p>
+<ul>
+<li>Presentation：<a href="http://127.0.0.1:3000/demo/blur/index.html" target="_blank" rel="external">http://127.0.0.1:3000/demo/blur/index.html</a>  </li>
+<li>Generator：<a href="http://127.0.0.1:3000/demo/blur/tool.html" target="_blank" rel="external">http://127.0.0.1:3000/demo/blur/tool.html</a></li>
+</ul>
+<h4 id="API"><a href="#API" class="headerlink" title="API"></a>API</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">url: http://127.0.0.1:3000/blur</div><div class="line">params:</div><div class="line">    &#123;String&#125; callback: callback function name. default: empty;</div><div class="line">    &#123;String&#125; src: input image url;</div><div class="line">    &#123;Integer&#125; size: output image size. default: 30, maximum: 100;</div><div class="line">    &#123;Integer&#125; radius: output image blur strength, bigger leads to more blurry. default: 1, maximum: 20;</div><div class="line">result:</div><div class="line">    &#123;Boolean&#125; success: status;</div><div class="line">    &#123;String&#125; message: status message;</div><div class="line">    &#123;String&#125; errMessage: error message;</div><div class="line">    &#123;String&#125; src: input image url;</div><div class="line">    &#123;String&#125; size: output image size;</div><div class="line">    &#123;String&#125; radius: output image blur strength;</div><div class="line">    &#123;String&#125; imgDataURL: output image data url (Base64);</div></pre></td></tr></table></figure>
+<h2 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><h4 id="Initialize"><a href="#Initialize" class="headerlink" title="Initialize"></a>Initialize</h4><ol>
+<li><a href="http://expressjs.com/" target="_blank" rel="external">express</a>：<code>npm install express --save</code></li>
+<li><a href="https://www.npmjs.com/package/express-generator" target="_blank" rel="external">express-generator</a>：<code>npm install express-generator -g</code></li>
+<li><a href="http://yeoman.io/" target="_blank" rel="external">yeoman</a>：<code>npm install yo -g</code></li>
+<li><code>yo express</code></li>
+</ol>
+<h4 id="Update"><a href="#Update" class="headerlink" title="Update"></a>Update</h4><ol>
+<li>Update <a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a>：<code>brew update</code></li>
+<li>Update Software：<code>brew upgrade</code></li>
+<li>Install wget：<code>brew install wget</code></li>
+</ol>
+<h4 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h4><ol>
+<li><a href="http://cairographics.org/" target="_blank" rel="external">Cairo</a>：<code>brew install pkg-config cairo libpng jpeg giflib</code>（For Mac）</li>
+<li><a href="https://www.npmjs.com/package/canvas" target="_blank" rel="external">Canvas</a>：<code>npm install canvas</code></li>
+<li><a href="https://www.npmjs.com/package/nodemon" target="_blank" rel="external">nodemon</a>：<code>npm install nodemon -g</code></li>
+<li><code>npm install</code></li>
+</ol>
+<h4 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h4><p><code>nodemon ./bin/www</code></p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote>
+<p><a href="http://javascript.ruanyifeng.com/nodejs/express.html" target="_blank">Express</a><br><a href="https://stackoverflow.com/questions/10692075/which-library-should-i-use-for-server-side-image-manipulation-on-node-js/10717592" target="_blank">Which library should I use for server-side image manipulation on Node.JS?</a><br><a href="http://stackoverflow.com/questions/22286900/how-do-i-interact-with-this-file-object-in-a-node-js-stream" target="_blank">How do I interact with this <file> object in a node.js stream?</file></a>   </p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      笔记 - 基于 Node Canvas 的占位图生成器
+    
+    </summary>
+    
+      <category term="Node" scheme="http://songxc.github.io/categories/node/"/>
+    
+    
+      <category term="图像处理" scheme="http://songxc.github.io/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+      <category term="Express" scheme="http://songxc.github.io/tags/Express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Retina屏幕中0.5px边框效果的CSS实现</title>
+    <link href="http://songxc.github.io/2014/02/19/hairline-in-retina/"/>
+    <id>http://songxc.github.io/2014/02/19/hairline-in-retina/</id>
+    <published>2014-02-18T16:00:00.000Z</published>
+    <updated>2016-05-09T08:21:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-2.png" style="width:320px;"><br></div>
+
+<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>刚接触 iOS 7 时，并没有太过在意系统中随处可见的边线，后来的一个项目中，“设计师”始终觉得前端做出来的边框和视觉稿不一样，其想要的效果是像系统中那样细的边线：</p>
+<p><img alt="iOS Setting" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-1.jpg" style="width:320px;"></p>
+<p>经过一顿谷歌，大概搞懂了 iOS 7 中这种特别细的边线的显示原理，以及如何使用 CSS 实现同样的效果。</p>
+<a id="more"></a>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>首先想用一张图来解释像素、渲染像素、物理像素之间的关系：</p>
+<p><img alt="像素、渲染像素、物理像素" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-2.png" style="width:640px;"></p>
+<p>在 iPhone 4 以前，「像素」和「物理像素」是一一对应的，设计中的 1 个点对应屏幕硬件上的 1 个像素点。而 iPhone 4 之后，Retina 屏幕出现，在 Retina 屏幕上，使用 4 个硬件上的像素点 (2 x 2) 来表示 1 个设计稿上的像素点。而「渲染像素」，在 iPhone 6 之前的设备无需在意，因为 Display Zoom 这个功能是从 iPhone 6 (Plus) 才开始加入，Downscale 的问题也只会出现在 iPhone 6 Plus 中。</p>
+<p>「像素」分辨率是设计时应当参考的尺度；<br>「渲染像素」分辨率是系统基于「像素」分辨率进行倍增（1x、2x 或 3x）得到的结果；<br>「物理像素」分辨率是指设备屏幕本身的分辨率；</p>
+<p>拿 iPhone 5s 来举例，其「物理像素」分辨率为 640x1136，但是它的浏览器是按照 320x568 进行渲染的<sup>①</sup>，也就是说会用 4 个「物理像素」表示 1 个 CSS「像素」，所以网页中一个 2px*2px 的元素实际上是由 16 个「物理像素」组成的：</p>
+<p><img src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-3.png" alt="Retina Explanation"></p>
+<p>网页中设置边框宽度为 1px 时，iPhone 5s 下的效果：</p>
+<p><img alt="1px border demo" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-4.jpg" style="width:320px;"></p>
+<p>可以看出：虽然给该边框设置的宽度是 1px，但是它在屏幕上却占据着 2 个物理像素点。<br>然而设计师想要的效果是这样的：</p>
+<p><img alt="0.5px border demo" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-5.jpg" style="width:320px;"></p>
+<p>上图的边框明显比 “1px border demo” 要细，也更加像系统本身的边框，因为它在屏幕上只占据了 1 个物理像素点。</p>
+<p>我们把这种用 1 个物理像素表示的细线称为 hairline，那么如何使用 CSS 实现 hairline 呢？</p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>下面就介绍几种 hairline 的实现方式：</p>
+<p><strong>1. background-image(image) + background-size</strong> <a href="http://songxc.github.io/demo/hairline/demo-1.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：原理简单；各机型下的效果都比较好；<br>缺点：不支持圆角；改变边框颜色需要重新做图，不方便；</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">padding</span>: <span class="number">15px</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#f8f8f8</span> <span class="built_in">url</span>(<span class="string">"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURUxpceHh4aIUC8kAAAABdFJOUwBA5thmAAAADElEQVQI12NgYGgAAACEAIEYVvHNAAAAAElFTkSuQmCC"</span>) left bottom repeat-x;</div><div class="line">    <span class="attribute">background-size</span>: auto <span class="number">1px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>2. border + scale</strong> <a href="http://songxc.github.io/demo/hairline/demo-2.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：可自由控制边框颜色；支持圆角；<br>缺点：改变太多元素属性；大量使用时 Android 下可能会产生性能问题；</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">display</span>: inline-block;</div><div class="line">    <span class="attribute">width</span>: <span class="number">140px</span>;</div><div class="line">    <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">5px</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#f8f8f8</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span><span class="selector-pseudo">::before</span> &#123;</div><div class="line">    <span class="attribute">content</span>: <span class="string">''</span>;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">width</span>: <span class="number">200%</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">200%</span>;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#aaa</span>;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">transform</span>: <span class="built_in">scale</span>(0.5);</div><div class="line">    <span class="attribute">transform-origin</span>: left top;</div><div class="line">    <span class="attribute">pointer-events</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>3. background-image(linear-gradient) + background-size</strong> <a href="http://songxc.github.io/demo/hairline/demo-3.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：可自由控制边框颜色；<br>缺点：改变太多元素属性；不支持圆角；Android 对 gradient 的支持不够友好，边框效果不理想；</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">display</span>: inline-block;</div><div class="line">    <span class="attribute">width</span>: <span class="number">140px</span>;</div><div class="line">    <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">text-align</span>: center;</div><div class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#f8f8f8</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span><span class="selector-pseudo">::before</span> &#123;</div><div class="line">    <span class="attribute">content</span>: <span class="string">''</span>;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">background-image</span>: <span class="built_in">-webkit-linear-gradient</span>(top, #aaa, #aaa 60%, transparent 60%),</div><div class="line">        <span class="built_in">-webkit-linear-gradient</span>(right, #aaa, #aaa 60%, transparent 60%),</div><div class="line">        <span class="built_in">-webkit-linear-gradient</span>(bottom, #aaa, #aaa 60%, transparent 60%),</div><div class="line">        <span class="built_in">-webkit-linear-gradient</span>(left, #aaa, #aaa 60%, transparent 60%);</div><div class="line">    <span class="attribute">background-size</span>: <span class="number">100%</span> <span class="number">1px</span>, <span class="number">1px</span> <span class="number">100%</span>;</div><div class="line">    <span class="attribute">background-position</span>: top, right top, bottom, left top;</div><div class="line">    <span class="attribute">background-repeat</span>: no-repeat;</div><div class="line">    <span class="attribute">pointer-events</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>4. 动态改变 viewport</strong> <a href="http://songxc.github.io/demo/hairline/demo-4.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：基本上支持一切使用场景；<br>缺点：</p>
+<ul>
+<li>需要一段脚本动态计算并改写 viewport 设置；</li>
+<li>页面布局必须采用 rem，以等比缩放的方式进行适配（不符合行业标准适配规则）；</li>
+<li>由于需要动态改变 viewport，但是部分 Android 下 viewport 的各个属性生效时机不一致，导致页面渲染过程中出现明显的修正过程，暂未找到较理想的解决方案；</li>
+</ul>
+<p>核心脚本：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> docEl = <span class="built_in">document</span>.documentElement;</div><div class="line"><span class="keyword">var</span> metaEl = <span class="built_in">document</span>.querySelector(<span class="string">'meta[name="viewport"]'</span>);</div><div class="line"><span class="keyword">var</span> dpr = win.devicePixelRatio || <span class="number">1</span>;</div><div class="line">    scale = <span class="number">1</span> / dpr;</div><div class="line"></div><div class="line"><span class="comment">// 中间经过各种异常 case 处理 ...</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> docWidth = docEl.clientWidth;</div><div class="line">metaEl.setAttribute(<span class="string">'content'</span>, <span class="string">'width='</span> + dpr * docWidth + <span class="string">',initial-scale='</span> + scale + <span class="string">',maximum-scale='</span> + scale + <span class="string">', minimum-scale='</span> + scale + <span class="string">',user-scalable=no'</span>);</div></pre></td></tr></table></figure>
+<p>Demo 样式：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">font-size</span>: <span class="built_in">calc</span>(32rem/75);</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">padding</span>: <span class="built_in">calc</span>(30rem/75);</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#aaa</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>以上几种方案虽然实现方式上不同，但基本上都是通过缩放来实现的，不管是背景缩放、边框缩放，还是整个页面缩放。<br>这些方案都有自己无法解决的问题，并不理想，我们来看下更理想的方案吧。</p>
+<h2 id="更理想的方案"><a href="#更理想的方案" class="headerlink" title="更理想的方案"></a>更理想的方案</h2><p>2014 年的 WWDC 大会上，Ted O’Connor 在 “Designing Responsive Web Experiences” 中提出 “retina hairlines” 的概念，并提到了开发者该如何实现。</p>
+<p>iOS 8 以及 OS X Yosemite 开始支持 0.5px，看起来就是为了解决这个问题而加入的。那我们是不是就可以直接给元素的边框宽度设置为 0.5px 了呢？并没有那么简单，因为不是所有的浏览器都支持 0.5px，所以我们必须要写兼容逻辑，具体实现方案如下：</p>
+<p><a href="http://songxc.github.io/demo/hairline/demo-5.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>检测浏览器是否支持 0.5px，如果支持则在 HTML 元素上增加 hairlines 的 class：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (<span class="built_in">window</span>.devicePixelRatio &amp;&amp; devicePixelRatio &gt;= <span class="number">2</span>) &#123;</div><div class="line">    <span class="keyword">var</span> testElem = <span class="built_in">document</span>.createElement(<span class="string">'div'</span>);</div><div class="line">    testElem.style.border = <span class="string">'.5px solid transparent'</span>;</div><div class="line">    <span class="built_in">document</span>.body.appendChild(testElem);</div><div class="line">    <span class="keyword">if</span> (testElem.offsetHeight == <span class="number">1</span>) &#123;</div><div class="line">        <span class="built_in">document</span>.querySelector(<span class="string">'html'</span>).classList.add(<span class="string">'hairlines'</span>);</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">document</span>.body.removeChild(testElem);</div><div class="line">&#125;</div><div class="line"><span class="comment">// This assumes this script runs in &lt;body&gt;, if it runs in &lt;head&gt; wrap it in $(document).ready(function() &#123;&#125;)</span></div></pre></td></tr></table></figure>
+<p>为元素单独设置 0.5px 的样式：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#bbb</span>;</div><div class="line">&#125;</div><div class="line"> </div><div class="line"><span class="selector-class">.hairlines</span> <span class="selector-tag">div</span> &#123;</div><div class="line">    <span class="attribute">border-width</span>: <span class="number">0.5px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>应该会有人问那 Android 以及 iOS 8 以下的机器怎么办？关于这点我是这样认为的：</p>
+<ul>
+<li>retina 屏幕越来越普及，针对 retina 屏幕的特性浏览器都会慢慢都支持的；</li>
+<li>retina hairlines 本来就属于增强体验，我们应该以渐进增强的思维来处理这种 case；</li>
+<li>Android 下为了实现 retina hairlines 而增加那么多冗余代码，而且可能会产生一些不可预知的问题，实在有些得不偿失；</li>
+</ul>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
+<li>前提是将浏览器的 viewport 设置为：<code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;</code></li>
+</ol>
+<h2 id="参考引用"><a href="#参考引用" class="headerlink" title="参考引用"></a>参考引用</h2><blockquote>
+<p><a href="http://www.zhihu.com/question/27261444" target="_blank">像素、渲染像素以及物理像素是什么东西？它们有什么联系？</a><br><a href="http://51bits.com/writing/half-point-css-borders-in-ios/" target="_blank">Half-Point CSS Borders in iOS</a><br><a href="http://dieulot.net/css-retina-hairline" target="_blank">CSS retina hairline, the easy way.</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      本文介绍了如何实现Retina屏幕中0.5px的边框效果
+    
+    </summary>
+    
+      <category term="前端" scheme="http://songxc.github.io/categories/front-end/"/>
+    
+    
+      <category term="hairline" scheme="http://songxc.github.io/tags/hairline/"/>
+    
+      <category term="Retina" scheme="http://songxc.github.io/tags/Retina/"/>
+    
+      <category term="0.5px border" scheme="http://songxc.github.io/tags/0-5px-border/"/>
+    
+      <category term="CSS" scheme="http://songxc.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://songxc.github.io/2014/02/01/hello-world/"/>
+    <id>http://songxc.github.io/2014/02/01/hello-world/</id>
+    <published>2014-01-31T16:00:00.000Z</published>
+    <updated>2016-05-09T03:42:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-1.png" style="width:320px;"><br></div>
+
+<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;div style=&quot;display:none;&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://o6w45ga5i.bkt.clouddn.com/thumbnail-1.png&quot; style=&quot;width:320px;&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Gitbook Pages" scheme="http://songxc.github.io/tags/Gitbook-Pages/"/>
+    
+      <category term="Hexo" scheme="http://songxc.github.io/tags/Hexo/"/>
+    
+      <category term="Hello World" scheme="http://songxc.github.io/tags/Hello-World/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+	<title>Kissy | Gesture Demo</title>
+	<meta charset="utf-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<link rel="apple-touch-icon-precomposed" href="http://songxc.github.io/assets/images/season-120.png">
+	<style type="text/css">
+	body, ol, li, p {
+		padding: 0;
+		margin: 0;
+	}
+	body {
+		font-family: sans-serif;
+	}
+	ol {
+		list-style: none;
+	}
+	#content {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.btn-xxxl {
+		position: relative;
+		font-size: 20px;
+		line-height: 200px;
+		text-decoration: none;
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin-top: 10px;
+		background: #f6f6f6;
+		color: #007aff;
+		border-radius: 5px;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	.btn-xxxl::after {
+		content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 200%;
+	    height: 200%;
+	    border: 1px solid #A8A9AB;
+	    -webkit-border-radius: 10px;
+	    -webkit-box-sizing: border-box;
+	    -webkit-transform: scale(0.5);
+	    -webkit-transform-origin: left top;
+	}
+
+	.overlay {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 1000;
+		width: 100%;
+		height: 100%;
+	}
+
+	.overlay-mask {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.5);
+	}
+
+	.overlay-bd {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 50px;
+		z-index: 10;
+		margin: auto;
+		width: 240px;
+		background: #fff;
+		border-radius: 10px;
+	}
+	.overlay-bd-content {
+		padding: 0 20px 30px;
+	}
+	.overlay-bd-content h3 {
+		text-align: center;
+	}
+	.overlay-bd-op {
+		overflow: hidden;
+	}
+	.overlay-bd-op .op-confirm {
+		position: relative;
+		float: left;
+		width: 50%;
+		height: 50px;
+		font-size: 20px;
+		line-height: 50px;
+		text-align: center;
+		color: #007aff;
+		text-decoration: none;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	.overlay-bd-op .op-confirm::after {
+		content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 200%;
+	    height: 200%;
+	    border-top: 1px solid #A8A9AB;
+	    -webkit-box-sizing: border-box;
+	    -webkit-transform: scale(0.5);
+	    -webkit-transform-origin: left top;
+	}
+	.overlay-bd-op .op-confirm:last-child::after {
+	    border-left: 1px solid #A8A9AB;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="content">
+		<h2>Kissy Tap</h2>
+		<div>
+			<a href="javascript:void(0)" id="J_TestTap" class="btn-xxxl" target="_blank" rel="external">Test Button</a>
+		</div>
+	</div>
+
+	<div class="overlay">
+		<i class="overlay-mask"></i>
+		<div class="overlay-bd">
+			<div class="overlay-bd-content">
+				<h3>Title</h3>
+				<p>content, content, content, content, content, content, content</p>
+			</div>
+			<div class="overlay-bd-op">
+				<a href="javascript:void(0)" class="op-confirm J_ConfirmTap" target="_blank" rel="external">Tap</a>
+				<a href="javascript:void(0)" class="op-confirm J_ConfirmClick" target="_blank" rel="external">Click</a>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="http://g.tbcdn.cn/kissy/k/1.4.2/seed-min.js"></script>
+	<script type="text/javascript">
+	KISSY.ready(function(S) {
+
+		S.use('node', function(S) {
+
+			var $ = S.Node.all;
+
+			// overlay 上的确定按钮
+			$('.J_ConfirmTap').on('tap', function(e) {
+
+				var $this = $(this);
+
+				var $overlay = $this.parent('.overlay');
+
+				$overlay.remove();
+
+			});
+
+			// overlay 上的确定按钮
+			$('.J_ConfirmClick').on('click', function(e) {
+
+				var $this = $(this);
+
+				var $overlay = $this.parent('.overlay');
+
+				$overlay.remove();
+
+			});
+
+			// 测试 tap 事件
+			$('#J_TestTap').on('touchstart touchmove touchend touchcancel click', function(e) {
+
+				alert(e.type + ': 你不该召唤我！');
+
+			});
+
+		});
+
+	});
+	</script>
+</body>
+</html>

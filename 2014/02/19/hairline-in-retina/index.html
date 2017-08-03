@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Retina屏幕中0.5px边框效果的CSS实现 | Season&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="hairline,Retina,0.5px border,CSS">
+  
+
+  <meta name="description" content="本文介绍了如何实现Retina屏幕中0.5px的边框效果">
+<meta name="keywords" content="hairline,Retina,0.5px border,CSS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Retina屏幕中0.5px边框效果的CSS实现">
+<meta property="og:url" content="http://songxc.github.io/2014/02/19/hairline-in-retina/index.html">
+<meta property="og:site_name" content="Season&#39;s Blog">
+<meta property="og:description" content="本文介绍了如何实现Retina屏幕中0.5px的边框效果">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://o6w45ga5i.bkt.clouddn.com/thumbnail-2.png">
+<meta property="og:image" content="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-1.jpg">
+<meta property="og:image" content="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-2.png">
+<meta property="og:image" content="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-3.png">
+<meta property="og:image" content="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-4.jpg">
+<meta property="og:image" content="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-5.jpg">
+<meta property="og:updated_time" content="2016-05-09T08:21:24.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Retina屏幕中0.5px边框效果的CSS实现">
+<meta name="twitter:description" content="本文介绍了如何实现Retina屏幕中0.5px的边框效果">
+<meta name="twitter:image" content="http://o6w45ga5i.bkt.clouddn.com/thumbnail-2.png">
+  
+  
+    <link rel="icon" href="/images/favicon.png">
+  
+
+  <link rel="stylesheet" href="/css/style.css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  
+    <link rel="stylesheet" href="/scrollLoading/style.css">
+  
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-48134898-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+
+  
+    <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo"></a>
+          </h1>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/">主页</a></li>
+              
+                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/chrome/">Chrome</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/node/">Node</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/front-end/">前端</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/notebook/">笔记</a></li></ul>
+                  
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/about.html">关于</a></li>
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+                
+                  <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://songxc.github.io"></form>
+                
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header"><a class="page-title-link" href="/categories/front-end/">前端</a></h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-hairline-in-retina" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      Retina屏幕中0.5px边框效果的CSS实现
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="/2014/02/19/hairline-in-retina/" class="article-date">
+  <time datetime="2014-02-18T16:00:00.000Z" itemprop="datePublished">2014-02-19</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <div style="display:none;"><br>    <img src="http://o6w45ga5i.bkt.clouddn.com/thumbnail-2.png" style="width:320px;"><br></div>
+
+<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>刚接触 iOS 7 时，并没有太过在意系统中随处可见的边线，后来的一个项目中，“设计师”始终觉得前端做出来的边框和视觉稿不一样，其想要的效果是像系统中那样细的边线：</p>
+<p><img alt="iOS Setting" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-1.jpg" style="width:320px;"></p>
+<p>经过一顿谷歌，大概搞懂了 iOS 7 中这种特别细的边线的显示原理，以及如何使用 CSS 实现同样的效果。</p>
+<a id="more"></a>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>首先想用一张图来解释像素、渲染像素、物理像素之间的关系：</p>
+<p><img alt="像素、渲染像素、物理像素" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-2.png" style="width:640px;"></p>
+<p>在 iPhone 4 以前，「像素」和「物理像素」是一一对应的，设计中的 1 个点对应屏幕硬件上的 1 个像素点。而 iPhone 4 之后，Retina 屏幕出现，在 Retina 屏幕上，使用 4 个硬件上的像素点 (2 x 2) 来表示 1 个设计稿上的像素点。而「渲染像素」，在 iPhone 6 之前的设备无需在意，因为 Display Zoom 这个功能是从 iPhone 6 (Plus) 才开始加入，Downscale 的问题也只会出现在 iPhone 6 Plus 中。</p>
+<p>「像素」分辨率是设计时应当参考的尺度；<br>「渲染像素」分辨率是系统基于「像素」分辨率进行倍增（1x、2x 或 3x）得到的结果；<br>「物理像素」分辨率是指设备屏幕本身的分辨率；</p>
+<p>拿 iPhone 5s 来举例，其「物理像素」分辨率为 640x1136，但是它的浏览器是按照 320x568 进行渲染的<sup>①</sup>，也就是说会用 4 个「物理像素」表示 1 个 CSS「像素」，所以网页中一个 2px*2px 的元素实际上是由 16 个「物理像素」组成的：</p>
+<p><img src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-3.png" alt="Retina Explanation"></p>
+<p>网页中设置边框宽度为 1px 时，iPhone 5s 下的效果：</p>
+<p><img alt="1px border demo" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-4.jpg" style="width:320px;"></p>
+<p>可以看出：虽然给该边框设置的宽度是 1px，但是它在屏幕上却占据着 2 个物理像素点。<br>然而设计师想要的效果是这样的：</p>
+<p><img alt="0.5px border demo" src="http://o6w45ga5i.bkt.clouddn.com/20160509-retina-5.jpg" style="width:320px;"></p>
+<p>上图的边框明显比 “1px border demo” 要细，也更加像系统本身的边框，因为它在屏幕上只占据了 1 个物理像素点。</p>
+<p>我们把这种用 1 个物理像素表示的细线称为 hairline，那么如何使用 CSS 实现 hairline 呢？</p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>下面就介绍几种 hairline 的实现方式：</p>
+<p><strong>1. background-image(image) + background-size</strong> <a href="http://songxc.github.io/demo/hairline/demo-1.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：原理简单；各机型下的效果都比较好；<br>缺点：不支持圆角；改变边框颜色需要重新做图，不方便；</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">padding</span>: <span class="number">15px</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#f8f8f8</span> <span class="built_in">url</span>(<span class="string">"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURUxpceHh4aIUC8kAAAABdFJOUwBA5thmAAAADElEQVQI12NgYGgAAACEAIEYVvHNAAAAAElFTkSuQmCC"</span>) left bottom repeat-x;</div><div class="line">    <span class="attribute">background-size</span>: auto <span class="number">1px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>2. border + scale</strong> <a href="http://songxc.github.io/demo/hairline/demo-2.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：可自由控制边框颜色；支持圆角；<br>缺点：改变太多元素属性；大量使用时 Android 下可能会产生性能问题；</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">display</span>: inline-block;</div><div class="line">    <span class="attribute">width</span>: <span class="number">140px</span>;</div><div class="line">    <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">5px</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#f8f8f8</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span><span class="selector-pseudo">::before</span> &#123;</div><div class="line">    <span class="attribute">content</span>: <span class="string">''</span>;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">width</span>: <span class="number">200%</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">200%</span>;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#aaa</span>;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">transform</span>: <span class="built_in">scale</span>(0.5);</div><div class="line">    <span class="attribute">transform-origin</span>: left top;</div><div class="line">    <span class="attribute">pointer-events</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>3. background-image(linear-gradient) + background-size</strong> <a href="http://songxc.github.io/demo/hairline/demo-3.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：可自由控制边框颜色；<br>缺点：改变太多元素属性；不支持圆角；Android 对 gradient 的支持不够友好，边框效果不理想；</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">display</span>: inline-block;</div><div class="line">    <span class="attribute">width</span>: <span class="number">140px</span>;</div><div class="line">    <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">text-align</span>: center;</div><div class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">0</span>;</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">background</span>: <span class="number">#f8f8f8</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span><span class="selector-pseudo">::before</span> &#123;</div><div class="line">    <span class="attribute">content</span>: <span class="string">''</span>;</div><div class="line">    <span class="attribute">position</span>: absolute;</div><div class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">    <span class="attribute">background-image</span>: <span class="built_in">-webkit-linear-gradient</span>(top, #aaa, #aaa 60%, transparent 60%),</div><div class="line">        <span class="built_in">-webkit-linear-gradient</span>(right, #aaa, #aaa 60%, transparent 60%),</div><div class="line">        <span class="built_in">-webkit-linear-gradient</span>(bottom, #aaa, #aaa 60%, transparent 60%),</div><div class="line">        <span class="built_in">-webkit-linear-gradient</span>(left, #aaa, #aaa 60%, transparent 60%);</div><div class="line">    <span class="attribute">background-size</span>: <span class="number">100%</span> <span class="number">1px</span>, <span class="number">1px</span> <span class="number">100%</span>;</div><div class="line">    <span class="attribute">background-position</span>: top, right top, bottom, left top;</div><div class="line">    <span class="attribute">background-repeat</span>: no-repeat;</div><div class="line">    <span class="attribute">pointer-events</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>4. 动态改变 viewport</strong> <a href="http://songxc.github.io/demo/hairline/demo-4.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>优势：基本上支持一切使用场景；<br>缺点：</p>
+<ul>
+<li>需要一段脚本动态计算并改写 viewport 设置；</li>
+<li>页面布局必须采用 rem，以等比缩放的方式进行适配（不符合行业标准适配规则）；</li>
+<li>由于需要动态改变 viewport，但是部分 Android 下 viewport 的各个属性生效时机不一致，导致页面渲染过程中出现明显的修正过程，暂未找到较理想的解决方案；</li>
+</ul>
+<p>核心脚本：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> docEl = <span class="built_in">document</span>.documentElement;</div><div class="line"><span class="keyword">var</span> metaEl = <span class="built_in">document</span>.querySelector(<span class="string">'meta[name="viewport"]'</span>);</div><div class="line"><span class="keyword">var</span> dpr = win.devicePixelRatio || <span class="number">1</span>;</div><div class="line">    scale = <span class="number">1</span> / dpr;</div><div class="line"></div><div class="line"><span class="comment">// 中间经过各种异常 case 处理 ...</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> docWidth = docEl.clientWidth;</div><div class="line">metaEl.setAttribute(<span class="string">'content'</span>, <span class="string">'width='</span> + dpr * docWidth + <span class="string">',initial-scale='</span> + scale + <span class="string">',maximum-scale='</span> + scale + <span class="string">', minimum-scale='</span> + scale + <span class="string">',user-scalable=no'</span>);</div></pre></td></tr></table></figure>
+<p>Demo 样式：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.list</span> <span class="selector-tag">li</span> &#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">font-size</span>: <span class="built_in">calc</span>(32rem/75);</div><div class="line">    <span class="attribute">font-weight</span>: bold;</div><div class="line">    <span class="attribute">padding</span>: <span class="built_in">calc</span>(30rem/75);</div><div class="line">    <span class="attribute">box-sizing</span>: border-box;</div><div class="line">    <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#aaa</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>以上几种方案虽然实现方式上不同，但基本上都是通过缩放来实现的，不管是背景缩放、边框缩放，还是整个页面缩放。<br>这些方案都有自己无法解决的问题，并不理想，我们来看下更理想的方案吧。</p>
+<h2 id="更理想的方案"><a href="#更理想的方案" class="headerlink" title="更理想的方案"></a>更理想的方案</h2><p>2014 年的 WWDC 大会上，Ted O’Connor 在 “Designing Responsive Web Experiences” 中提出 “retina hairlines” 的概念，并提到了开发者该如何实现。</p>
+<p>iOS 8 以及 OS X Yosemite 开始支持 0.5px，看起来就是为了解决这个问题而加入的。那我们是不是就可以直接给元素的边框宽度设置为 0.5px 了呢？并没有那么简单，因为不是所有的浏览器都支持 0.5px，所以我们必须要写兼容逻辑，具体实现方案如下：</p>
+<p><a href="http://songxc.github.io/demo/hairline/demo-5.html" title="hairline demo" target="_blank">[demo]</a></p>
+<p>检测浏览器是否支持 0.5px，如果支持则在 HTML 元素上增加 hairlines 的 class：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (<span class="built_in">window</span>.devicePixelRatio &amp;&amp; devicePixelRatio &gt;= <span class="number">2</span>) &#123;</div><div class="line">    <span class="keyword">var</span> testElem = <span class="built_in">document</span>.createElement(<span class="string">'div'</span>);</div><div class="line">    testElem.style.border = <span class="string">'.5px solid transparent'</span>;</div><div class="line">    <span class="built_in">document</span>.body.appendChild(testElem);</div><div class="line">    <span class="keyword">if</span> (testElem.offsetHeight == <span class="number">1</span>) &#123;</div><div class="line">        <span class="built_in">document</span>.querySelector(<span class="string">'html'</span>).classList.add(<span class="string">'hairlines'</span>);</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">document</span>.body.removeChild(testElem);</div><div class="line">&#125;</div><div class="line"><span class="comment">// This assumes this script runs in &lt;body&gt;, if it runs in &lt;head&gt; wrap it in $(document).ready(function() &#123;&#125;)</span></div></pre></td></tr></table></figure>
+<p>为元素单独设置 0.5px 的样式：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#bbb</span>;</div><div class="line">&#125;</div><div class="line"> </div><div class="line"><span class="selector-class">.hairlines</span> <span class="selector-tag">div</span> &#123;</div><div class="line">    <span class="attribute">border-width</span>: <span class="number">0.5px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>应该会有人问那 Android 以及 iOS 8 以下的机器怎么办？关于这点我是这样认为的：</p>
+<ul>
+<li>retina 屏幕越来越普及，针对 retina 屏幕的特性浏览器都会慢慢都支持的；</li>
+<li>retina hairlines 本来就属于增强体验，我们应该以渐进增强的思维来处理这种 case；</li>
+<li>Android 下为了实现 retina hairlines 而增加那么多冗余代码，而且可能会产生一些不可预知的问题，实在有些得不偿失；</li>
+</ul>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
+<li>前提是将浏览器的 viewport 设置为：<code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;</code></li>
+</ol>
+<h2 id="参考引用"><a href="#参考引用" class="headerlink" title="参考引用"></a>参考引用</h2><blockquote>
+<p><a href="http://www.zhihu.com/question/27261444" target="_blank">像素、渲染像素以及物理像素是什么东西？它们有什么联系？</a><br><a href="http://51bits.com/writing/half-point-css-borders-in-ios/" target="_blank">Half-Point CSS Borders in iOS</a><br><a href="http://dieulot.net/css-retina-hairline" target="_blank">CSS retina hairline, the easy way.</a></p>
+</blockquote>
+
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://songxc.github.io/2014/02/19/hairline-in-retina/" data-id="cj5wm8uko000a9oi6mlhegk82" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+        
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/0-5px-border/">0.5px border</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Retina/">Retina</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hairline/">hairline</a></li></ul>
+
+      </footer>
+    </div>
+  </article>
+  
+  
+  <section id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-hairline-in-retina" data-title="Retina屏幕中0.5px边框效果的CSS实现" data-url="http://songxc.github.io/2014/02/19/hairline-in-retina/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'songxc'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  </section>
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>关注我 :</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="twitter" href="https://twitter.com/season_song" target="_blank"><i class="icon fa fa-twitter"></i></a></li>
+      
+        <li><a class="social-tooltip" title="facebook" href="https://www.facebook.com/seasonsong" target="_blank"><i class="icon fa fa-facebook"></i></a></li>
+      
+        <li><a class="social-tooltip" title="google-plus" href="https://plus.google.com/+%E5%AE%8B%E6%98%9F%E6%99%A8season" target="_blank"><i class="icon fa fa-google-plus"></i></a></li>
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/songxc" target="_blank"><i class="icon fa fa-github"></i></a></li>
+      
+        <li><a class="social-tooltip" title="weibo" href="http://weibo.com/316431666" target="_blank"><i class="icon fa fa-weibo"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="http://songxc.github.io/atom.xml" target="_blank"><i class="icon fa fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/12/23/image-placeholder-generator-cairo/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <p class="article-nav-title">
+        
+          笔记 - 基于 Node Canvas 的占位图生成器
+        
+      </p>
+      <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+  
+  
+    <a href="/2014/02/01/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <p class="article-nav-title">Hello World</p>
+      <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+    </a>
+  
+</nav>
+
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2016/05/09/chrome-devtools-appearance/" class="thumbnail">
+  
+    <span style="background-image:url(http://o6w45ga5i.bkt.clouddn.com/thumbnail-6-1.png
+)" alt="Chrome DevTools 新增黑色主题" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/chrome/">Chrome</a></p>
+              <p class="item-title"><a href="/2016/05/09/chrome-devtools-appearance/" class="title">Chrome DevTools 新增黑色主题</a></p>
+              <p class="item-date"><time datetime="2016-05-08T16:00:00.000Z" itemprop="datePublished">2016-05-09</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2016/02/28/better-life/" class="thumbnail">
+  
+    <span style="background-image:url(http://o6w45ga5i.bkt.clouddn.com/thumbnail-5-1.png
+)" alt="笔记 - 奇特的一生" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/notebook/">笔记</a></p>
+              <p class="item-title"><a href="/2016/02/28/better-life/" class="title">笔记 - 奇特的一生</a></p>
+              <p class="item-date"><time datetime="2016-02-27T16:00:00.000Z" itemprop="datePublished">2016-02-28</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/12/24/ECMAScript6-promise/" class="thumbnail">
+  
+    <span style="background-image:url(http://o6w45ga5i.bkt.clouddn.com/thumbnail-4.png
+)" alt="笔记 - ES6中的Promise特性" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/notebook/">笔记</a></p>
+              <p class="item-title"><a href="/2015/12/24/ECMAScript6-promise/" class="title">笔记 - ES6中的Promise特性</a></p>
+              <p class="item-date"><time datetime="2015-12-23T16:00:00.000Z" itemprop="datePublished">2015-12-24</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/12/23/image-placeholder-generator-cairo/" class="thumbnail">
+  
+    <span style="background-image:url(http://o6w45ga5i.bkt.clouddn.com/thumbnail-3.png
+)" alt="笔记 - 基于 Node Canvas 的占位图生成器" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/node/">Node</a></p>
+              <p class="item-title"><a href="/2015/12/23/image-placeholder-generator-cairo/" class="title">笔记 - 基于 Node Canvas 的占位图生成器</a></p>
+              <p class="item-date"><time datetime="2015-12-22T16:00:00.000Z" itemprop="datePublished">2015-12-23</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2014/02/19/hairline-in-retina/" class="thumbnail">
+  
+    <span style="background-image:url(http://o6w45ga5i.bkt.clouddn.com/thumbnail-2.png
+)" alt="Retina屏幕中0.5px边框效果的CSS实现" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="/categories/front-end/">前端</a></p>
+              <p class="item-title"><a href="/2014/02/19/hairline-in-retina/" class="title">Retina屏幕中0.5px边框效果的CSS实现</a></p>
+              <p class="item-date"><time datetime="2014-02-18T16:00:00.000Z" itemprop="datePublished">2014-02-19</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/chrome/">Chrome</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/node/">Node</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/front-end/">前端</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/notebook/">笔记</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">二月 2014</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/0-5px-border/">0.5px border</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CSS/">CSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chrome-DevTools/">Chrome DevTools</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ECMAScript-6/">ECMAScript 6</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Express/">Express</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Gitbook-Pages/">Gitbook Pages</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hello-World/">Hello World</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Promise/">Promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Retina/">Retina</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hairline/">hairline</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/图像处理/">图像处理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/奇特的一生/">奇特的一生</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/时间统计/">时间统计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/柳比歇夫/">柳比歇夫</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/0-5px-border/" style="font-size: 10px;">0.5px border</a> <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/Chrome-DevTools/" style="font-size: 10px;">Chrome DevTools</a> <a href="/tags/ECMAScript-6/" style="font-size: 10px;">ECMAScript 6</a> <a href="/tags/Express/" style="font-size: 10px;">Express</a> <a href="/tags/Gitbook-Pages/" style="font-size: 10px;">Gitbook Pages</a> <a href="/tags/Hello-World/" style="font-size: 10px;">Hello World</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Promise/" style="font-size: 10px;">Promise</a> <a href="/tags/Retina/" style="font-size: 10px;">Retina</a> <a href="/tags/hairline/" style="font-size: 10px;">hairline</a> <a href="/tags/图像处理/" style="font-size: 10px;">图像处理</a> <a href="/tags/奇特的一生/" style="font-size: 10px;">奇特的一生</a> <a href="/tags/时间统计/" style="font-size: 10px;">时间统计</a> <a href="/tags/柳比歇夫/" style="font-size: 10px;">柳比歇夫</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">链接</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="http://hexo.io">Hexo</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="/" class="logo"></a>
+        </h1>
+        <p>&copy; 2017 Season Song</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+  <script src="/scrollLoading/jquery.scrollLoading.js"></script>
+  <script src="/scrollLoading/main.js"></script>
+
+
+
+
+<script src="/js/html-patch.js"></script>
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

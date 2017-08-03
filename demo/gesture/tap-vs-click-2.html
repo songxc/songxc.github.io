@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tap vs Click 2</title>
+	<meta charset="utf-8">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<link rel="apple-touch-icon-precomposed" href="http://songxc.github.io/assets/images/season-120.png">
+	<style type="text/css">
+	body, ol, li, p {
+		padding: 0;
+		margin: 0;
+	}
+	body {
+		font-family: sans-serif;
+	}
+	ol {
+		list-style: none;
+	}
+	#content {
+		text-align: center;
+	}
+	.entrance-list {
+		margin-top: 50px;
+	}
+	.entrance-list li {
+		margin-bottom: 20px;
+	}
+	.entrance {
+		position: relative;
+		font-size: 20px;
+		line-height: 50px;
+		text-decoration: none;
+		display: inline-block;
+		width: 200px;
+		height: 50px;
+		background: #f6f6f6;
+		color: #007aff;
+		border-radius: 5px;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	.entrance:active {
+		color: #fff;
+		background: #007aff;
+	}
+	.entrance::after {
+		content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 200%;
+	    height: 200%;
+	    border: 1px solid #A8A9AB;
+	    -webkit-border-radius: 10px;
+	    -webkit-box-sizing: border-box;
+	    -webkit-transform: scale(0.5);
+	    -webkit-transform-origin: left top;
+	}
+	</style>
+
+	<script type="text/javascript">
+	document.addEventListener("touchstart", function(){}, true)
+	</script>
+</head>
+
+<body>
+	<div id="content">
+		<h2>Tap vs Click 2</h2>
+		<ol class="entrance-list">
+			<li>
+				<a href="zepto/index.htm" class="entrance">zepto</a>
+			</li>
+			<li>
+				<a href="kimi/index.htm" class="entrance">kimi</a>
+			</li>
+			<li>
+				<a href="kissy-mini/index.htm" class="entrance">kissy-mini</a>
+			</li>
+			<li>
+				<a href="kissy/index.htm" class="entrance">kissy</a>
+			</li>
+		</ol>
+	</div>
+</body>
+</html>
